@@ -1,0 +1,29 @@
+{
+    "name": "yueshang/laravel-upload",
+    "authors": [
+        {
+            "name": "yueshang",
+            "email": "81280@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "~5.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Yueshang\\LaravelUploader\\": "src/LaravelUploader"
+        },
+        "files": ["src/LaravelUploader/helpers.php"]
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["\\Yueshang\\LaravelUploader\\UploadServiceProvider"],
+            "aliases": {
+                "LaravelUploader": "\\Yueshang\\LaravelUploader\\LaravelUploader"
+            }
+        }
+    },
+    "license": "MIT"
+}
