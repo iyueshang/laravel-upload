@@ -69,7 +69,7 @@ class FileUpload
 
         $mime = $file->getClientMimeType();
 
-        $path = $this->filesystem->disk($disk)->putFileAs($dir, $file, $hashName);
+        $path = $this->filesystem->disk($disk)->putFileAs($dir, $file, $hashName, ['ACL' => 'public-read'] );
 
         if (!$path) {
             throw new Exception('Failed to store file.');
