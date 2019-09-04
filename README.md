@@ -6,20 +6,20 @@
 
 1. register provider and configuration.
     ```sh
-    $ composer require overtrue/laravel-uploader -vvv
+    $ composer require yueshang/laravel-uploader -vvv
     ```
 
     then register the package service provider, add the following line to `providers` section of `config/app.php`:
 
 
     ```php
-    Overtrue\LaravelUploader\UploadServiceProvider::class,
+    Yueshang\LaravelUploader\UploadServiceProvider::class,
     ```
 
     and publish the assets using command:
 
     ```sh
-    $ php artisan vendor:publish --provider=Overtrue\\LaravelUploader\\UploadServiceProvider
+    $ php artisan vendor:publish --provider=Yueshang\\LaravelUploader\\UploadServiceProvider
     ```
 
 2. Routing
