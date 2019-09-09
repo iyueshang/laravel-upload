@@ -69,7 +69,7 @@ class FileUpload
 
         $mime = $file->getClientMimeType();
 
-        $path = $this->filesystem->disk($disk)->putFileAs($dir, $file, $hashName, ['ACL' => 'public-read'] );
+        $path = $this->filesystem->disk($disk)->putFileAs($dir, $file, $hashName, ['ACL' => 'public-readcom'] );
 
         if (!$path) {
             throw new Exception('Failed to store file.');
@@ -84,7 +84,7 @@ class FileUpload
             'storage_path' => $path,
             'relative_url' => str_replace(config('app.url'), '', Storage::disk($disk)->url($path)),
             'url' => Storage::disk($disk)->url($path),
-            'dataURL' => $this->getDataUrl($mime, $this->filesystem->disk($disk)->get($path)),
+            //'dataURL' => $this->getDataUrl($mime, $this->filesystem->disk($disk)->get($path)),
         ];
     }
 

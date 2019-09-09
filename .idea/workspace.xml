@@ -56,7 +56,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567565703843</updated>
       <workItem from="1567565705128" duration="453000" />
-      <workItem from="1567567205650" duration="3358000" />
+      <workItem from="1567567205650" duration="4125000" />
+      <workItem from="1568035747679" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="修改 readme">
       <created>1567568245070</created>
@@ -76,7 +77,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
