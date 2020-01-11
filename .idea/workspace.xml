@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1a6cc349-52ee-41d9-96c0-24a7704cb6bd" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaravelUploader/Services/FileUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaravelUploader/Services/FileUpload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,21 +26,26 @@
   </component>
   <component name="ProjectId" id="1QM1Z9k5ZGzjAFTEiHwBqUqfpvn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -57,7 +61,8 @@
       <updated>1567565703843</updated>
       <workItem from="1567565705128" duration="453000" />
       <workItem from="1567567205650" duration="4125000" />
-      <workItem from="1568035747679" duration="32000" />
+      <workItem from="1568035747679" duration="534000" />
+      <workItem from="1578723560279" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="修改 readme">
       <created>1567568245070</created>
